@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <title> Leeret-MessageBoard</title>
+</head>
+<!-- class="container-fluid" -->
+
+<body class="container-xlg">
+    <!--Header -->
+    <header >
+        <div>
+            <img class="img-header" src="./assets/images/ValleyOfTheSun.jpg" alt="ValleyOfTheSun">
+            <div>
+            
+            <h1> Kamy Leeret</h1></div>
+        </div>
+        <!--start navigation -->
+        <div>
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="index.html" role="tab"
+                    aria-controls="pills-aboutme">About Me</a>
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="msgboard.html" role="tab"
+                    aria-controls="pills-messageboard">Message Board</a>
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
+                    href="https://www.linkedin.com/in/kamy-leeret-mspa-57161348/" role="tab"
+                    aria-controls="pills-linkedin">LinkedIn</a>
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="portfolio.html" role="tab"
+                    aria-controls="pills-portfolio">Portfolio</a>
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="https://github.com/leeretk"
+                    role="tab" aria-controls="pills-github">GitHub</a>
+                <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
+                    href="./assets/docs/Leeret Kamy Resume 20200328.pdf" role="tab"
+                    aria-controls="pills-resume">Resume</a>
+            </nav>
+        </div>
+        <!--end navigation -->
+    </header>
+    <!--end header -->
+
+    <!--start about me -->
+    <div class="container-fluid">
+        <div class="card ">
+            <p class="p-aboutMeblurb">LEAVE A MESSAGE
+            </p>
+        </div>
+
+        <div class="row no-gutters">
+    <!-- ******MESSAGE CONTAINER******* -->
+    <div class="col-lg">
+
+      <div class=container>
+        <div class="row text-center">
+          <div class="col-lg">
+            <br>
+            
+            <div class="card text-center">
+              <div class="card-header">
+                <strong><i></i> Message Board </strong>
+              </div>
+              
+              <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
+              <div class="card-body">
+
+                <form role="form">
+                  <div class="form-group">
+                    <form>
+                      <div class="row">
+                        <label for="name-input" class="col-md-4 col-form-label">Name</label>
+                        <input type="text" id="name-input">
+                      </div>
+                      <div class="row">
+                        <label for="email-input" class="col-md-4 col-form-label">Email </label>
+                        <input type="text" id="email-input">
+                      </div>
+                      <div class="row">
+                        <label for="message-input" class="col-md-4 col-form-label">Message</label>
+                        <input type="text" id="message-input">
+                      </div>
+                      <div class=" row">
+                        <label for="date-input" class="col-md-4 col-form-label">Date</label>
+                        <input type="text" id="date-input">
+                      </div>
+                  </div>
+                  <!--******ADD COMMENT BUTTON*******-->
+                  <div class="form-group text-center">
+                    <button role="button" class="btn btn-secondary buttonSubmit" id="add-new-contact-btn">
+                      <i></i>Submit
+                    </button>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div>
+            <div>
+            <div>
+              <div>
+                <div>
+                  <!-- ******MESSAGE BOARD CONTAINER******* -->
+                  <div class="col-lg">
+                    <div class=container>
+                      <div class="row text-center">
+                        <div class="col-lg">
+                          <br>
+                          <div class="card text-center">
+
+                              <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
+                              <div class=container>
+                              <div class="card-header">
+                              <strong><i></i> Message Board </strong>
+                            </div>
+                            <div class="card-body">
+                              <!-- style="width: 100%"; -->
+                              <table class="table table-hover" id="contacts-table" >
+                                <thead>
+                                  <tr>
+                                    <th scope="col-5">Count</th>
+                                    <th scope="col-5">Name</th>
+                                    <th scope="col-5">Email</th>
+                                    <th scope="col-5" class="overflow-wrap-hack">
+                                      Message</th>                                    
+                                    <th scope="col-5">Date</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="contacts-table">
+                                  <tr>
+                                    <th scope="row" id="newRow">
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="fixed-bottom"> Copyright &copy; </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end MESSAGE -->
+
+
+    <!--scripts  -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/msgboard.js"></script>
+
+</body>
+
+</html>
