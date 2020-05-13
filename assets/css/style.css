@@ -66,6 +66,32 @@ header {
 nav{
   width: 100%;
 }
+/* .img-background {
+  opacity:0.4;
+  filter:alpha(opacity=40);
+  width: 100%;
+  height: 100%;
+} */
+.body-container {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-container-blue {
+  background-image: url(../images/blueTriangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-container-green {
+  background-image: url(../images/greenTrapazoid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-container-purple {
+  background-image: url(../images/purpleDiamond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .img-portfolio {
   float: left;
   height: 250px;
@@ -159,7 +185,6 @@ table thead tr td th {
   margin-left: 50px;
   margin-right: 50px;
 }
-
 
 @media (max-width: 600px) {
   nav, footer, header body .container{
