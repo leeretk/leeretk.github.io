@@ -76,21 +76,40 @@ nav{
   background-image: url(../images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity:0.4;
+  /* opacity:0.4; */
   filter:alpha(opacity=40);
+  padding: 5px;
 }
 .img-container-blue {
   background-image: url(../images/blueTriangle.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.img-container-gray-t {
+  background-image: url(../images/greyTriangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.border-light{
+  color: rgb(39,79,114);
+border-width: thick;
 }
 .img-container-green {
   background-image: url(../images/greenTrapazoid.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.img-container-purple {
+.img-container-purple-d {
   background-image: url(../images/purpleDiamond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.img-container-purple-s {
+  background-image: url(../images/purpleSquare.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -102,8 +121,8 @@ nav{
   padding: 10px;
 }
 .img-aboutMe {
-  height: 75px;
-  width: 75px;
+  height: 150px;
+  width: 150px;
 }
 .nav-pills {
   background-color: rgb(104,139,56);
@@ -165,14 +184,24 @@ label {
 .thead {
   color: rgb(100, 88, 152);
 }
+.card {
+  border: thick;
+  border-color: rgb(39,79,114);
+  padding: 20px;
+}
 .card-header {
   color: rgb(39,79,114);
   font-size: 25px;
-  margin-left: 50px;
+  font-weight: bolder;
+}
+.card-img-top{
+  color: white;
+  background-color: rgb(39,79,114);
+  margin-bottom: 20px;
+  padding: 10px;
 }
 tbody {
   word-break: break-all;
-
   color: rgb(100, 88, 152);
 }
 table thead tr td th { 
@@ -181,7 +210,8 @@ table thead tr td th {
 .card-body {
   margin-right: 50px;
   color: rgb(100, 88, 152);
-  margin-left: 50x;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .no-gutters {
   margin-left: 50px;
