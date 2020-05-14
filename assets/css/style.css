@@ -76,6 +76,8 @@ nav{
   background-image: url(../images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  opacity:0.4;
+  filter:alpha(opacity=40);
 }
 .img-container-blue {
   background-image: url(../images/blueTriangle.png);
