@@ -16,6 +16,7 @@ body{
   color: white;
   margin-right: 50px;
   margin-left: 50px;
+  margin-bottom: 50px;
 }
 h1 {
   padding-top: 20px;
@@ -26,11 +27,9 @@ h5 {
   font-size: 20px;
 }
 .row {
-  padding-bottom: 10px;
-  color: white;
+  margin-bottom: 10px;
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 20px;
 }
 .p-below-nav {
 font-size: 24px;
@@ -44,7 +43,7 @@ header {
   background-color:  rgb(39,79,114);
   color: white;
   font-size: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   border-bottom:  rgb(100, 88, 152);;
   width: 100%;
 }
@@ -54,71 +53,13 @@ header {
   height: 100px;
   padding: 20px;
 }
-.box-title {
-  font-size: 25px;
-  color:rgb(39,79,114) ;
-}
-.box-text {
-  padding-bottom: 10px;
-  font-size: 16px;
-  color:rgb(39,79,114) ;
-}
 nav{
   width: 100%;
 }
-/* .img-background {
-  opacity:0.4;
-  filter:alpha(opacity=40);
-  width: 100%;
-  height: 100%;
-} */
-.body-container {
-  background-image: url(../images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* opacity:0.4; */
-  filter:alpha(opacity=40);
-  padding: 5px;
-}
-.img-container-blue {
-  background-image: url(../images/blueTriangle.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 500px;
-}
-.img-container-gray-t {
-  background-image: url(../images/greyTriangle.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.border-light{
-  color: rgb(39,79,114);
-border-width: thick;
-}
-.img-container-green {
-  background-image: url(../images/greenTrapazoid.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.img-container-purple-d {
-  background-image: url(../images/purpleDiamond.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 500px;
-}
-.img-container-purple-s {
-  background-image: url(../images/purpleSquare.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.img-portfolio {
+.img-card-portfolio {
   float: left;
-  height: 250px;
-  width: 300px;
   margin: 40px;
-  padding: 10px;
+  padding: 30px;
 }
 .img-aboutMe {
   height: 150px;
@@ -133,10 +74,10 @@ border-width: thick;
   color: white;
 }
 .nav-tabs {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 a {
   font-size:20px;
@@ -161,11 +102,10 @@ footer {
 .portfolio-div {
   column-gap: 200px;
 }
-/* .container { 
+.container-fluid { 
   margin-left: 50px;
-  margin-bottom: 125px;
-
-} */
+  padding-bottom: 50px;
+}
 .a-portfolio {
   font-size: 16px;
 }
@@ -186,10 +126,17 @@ label {
 .thead {
   color: rgb(100, 88, 152);
 }
-.card {
+.bord-dark {
   border: thick;
   border-color: rgb(39,79,114);
   padding: 20px;
+}
+tbody {
+  word-break: break-all;
+  color: rgb(100, 88, 152);
+}
+table thead tr td th { 
+  color: rgb(100, 88, 152);  font-size: 16px;
 }
 .card-header {
   color: rgb(39,79,114);
@@ -202,24 +149,74 @@ label {
   margin-bottom: 20px;
   padding: 10px;
 }
-tbody {
-  word-break: break-all;
-  color: rgb(100, 88, 152);
-}
-table thead tr td th { 
-  color: rgb(100, 88, 152);;  font-size: 16px;
-}
 .card-body {
-  margin-right: 50px;
   color: rgb(100, 88, 152);
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 15px;
 }
-/* .no-gutters {
-  margin-left: 50px;
-  margin-right: 50px;
-} */
-
+.col-md-3{
+  background-color:rgb(104,139,56);
+  height: 100%;
+}
+.no-gutters {
+  margin: 40px;
+} 
+.card-title {
+  font-size: 25px;
+  color:rgb(39,79,114) ;
+}
+.card-text {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color:rgb(39,79,114) ;
+}
+.img-container-green {
+  background-image: url(../images/greenTrapazoid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-container-purple-d {
+  background-image: url(../images/purpleDiamond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.img-container-purple-s {
+  background-image: url(../images/purpleSquare.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-background-portfolio {
+  background-image: url(../images/busCardBackground.JPG);
+  opacity:0.4;
+  filter:alpha(opacity=40);
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+.body-container {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity:0.4; */
+  filter:alpha(opacity=30);
+  padding: 50px;
+}
+.img-container-blue {
+  background-image: url(../images/blueTriangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.img-container-gray-t {
+  background-image: url(../images/greyTriangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.border-light{
+  color: rgb(39,79,114);
+border-width: thick;
+}
 @media (max-width: 600px) {
   nav, footer, header body .container{
       width: 100%;
