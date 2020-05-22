@@ -62,11 +62,9 @@ nav{
   padding: 30px;
 }
 .card-img-top-services{
-  color: white;
-  background-color: rgb(39,79,114);
+  color: rgb(39,79,114);
   height: 150px;
   width: 150px;
-  background-position: center;
 }
 .img-aboutMe {
   height: 150px;
