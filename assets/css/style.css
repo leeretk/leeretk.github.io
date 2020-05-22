@@ -159,14 +159,19 @@ table thead tr td th {
 .card-body {
   color: rgb(100, 88, 152);
   margin: 15px;
+  border-radius: 10px;
+
 }
 .card-services {
   background-color: rgb(104,139,56);
+  border-radius: 10px;
 }
 .card-body-services {
   color: rgb(100, 88, 152);
   margin: 15px;
   background-color: rgb(104,139,56);
+  border-radius: 10px;
+
 }
 .col-md-3{
   background-color:rgb(104,139,56);
@@ -184,6 +189,9 @@ table thead tr td th {
   padding: 25px;
   color:white;
   background-color: rgb(100,88,152);
+  border-radius: 10px;
+  border-color: rgb(39,79,114);
+
 }
 .card-text {
   padding-bottom: 10px;
