@@ -8,15 +8,14 @@ html{
 body{
   background-color: rgb(104,139,56);
   position: center;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .row-aboutMe {
   font-size: 14px;
   color: white;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 h1 {
   padding-top: 20px;
