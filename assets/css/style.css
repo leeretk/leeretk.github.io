@@ -232,7 +232,6 @@ table thead tr td th {
   background-repeat: no-repeat;
   /* opacity:0.4; */
   filter:alpha(opacity=30);
-  padding: 50px;
 }
 .img-container-blue {
   background-image: url(../images/blueTriangle.png);
