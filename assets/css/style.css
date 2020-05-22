@@ -171,6 +171,12 @@ table thead tr td th {
   font-size: 25px;
   color:rgb(39,79,114) ;
 }
+.card-title-services {
+  font-size: 25px;
+  color:rgb(39,79,114);
+  background-color: rgb(165,165,165);
+}
+
 .card-text {
   padding-bottom: 10px;
   font-size: 16px;
