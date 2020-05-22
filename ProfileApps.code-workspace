@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\bamazon"
+		},
+		{
+			"path": "..\\FriendFinder"
+		},
+		{
+			"path": "..\\burger"
+		},
+		{
+			"path": "..\\Triviagame"
+		},
+		{
+			"path": "..\\liri-node-app"
+		},
+		{
+			"path": "..\\project-2"
+		},
+		{
+			"path": "..\\train-schedule"
+		},
+		{
+			"path": "..\\class-pro-1"
+		},
+		{
+			"path": "..\\GifTastic"
+		}
+	],
+	"settings": {}
+}

@@ -155,6 +155,8 @@ table thead tr td th {
   background-color: rgb(39,79,114);
   margin-bottom: 20px;
   padding: 10px;
+  height: 150px;
+  width: 50px;
 }
 .card-body {
   color: rgb(100, 88, 152);
