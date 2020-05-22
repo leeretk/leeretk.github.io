@@ -1,15 +1,15 @@
 html{
   /* margin-top: 250px; */
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
   font: 18px/1.4 system-ui;
   position: center;
 }
 body{
   background-color: rgb(104,139,56);
   position: center;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .row-aboutMe {
   font-size: 14px;
@@ -67,8 +67,8 @@ nav{
   width: 150px;
 }
 .img-aboutMe {
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
 }
 .nav-pills {
   background-color: rgb(104,139,56);
