@@ -160,6 +160,14 @@ table thead tr td th {
   color: rgb(100, 88, 152);
   margin: 15px;
 }
+.card-services {
+  background-color: rgb(104,139,56);
+}
+.card-body-services {
+  color: rgb(100, 88, 152);
+  margin: 15px;
+  background-color: rgb(104,139,56);
+}
 .col-md-3{
   background-color:rgb(104,139,56);
   height: 100%;
@@ -173,14 +181,19 @@ table thead tr td th {
 }
 .card-title-services {
   font-size: 25px;
-  color:rgb(39,79,114);
-  background-color: rgb(165,165,165);
+  padding: 25px;
+  color:white;
+  background-color: rgb(100,88,152);
 }
-
 .card-text {
   padding-bottom: 10px;
   font-size: 16px;
   color:rgb(39,79,114) ;
+}
+.card-text-services {
+  padding-bottom: 10px;
+  font-size: 20px;
+  color:white;  
 }
 .img-container-green {
   background-image: url(../images/greenTrapazoid.png);
