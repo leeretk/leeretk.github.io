@@ -29,7 +29,21 @@
 		},
 		{
 			"path": "..\\GifTastic"
+		},
+		{
+			"path": "..\\newsworthy"
+		},
+		{
+			"path": "..\\clickygame"
+		},
+		{
+			"path": "..\\toedrag"
+		},
+		{
+			"path": "..\\google-books"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
