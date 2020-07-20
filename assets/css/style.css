@@ -1,5 +1,5 @@
 html{
-  /* margin-top: 250px; */
+  margin-top: 25px;
   margin-right: 25px;
   margin-left: 25px;
   font: 18px/1.4 system-ui;
@@ -102,6 +102,9 @@ footer {
   text-align: center;
   color: white;
   font-size: 25px;
+  height: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .portfolio-div {
   column-gap: 200px;
@@ -157,12 +160,18 @@ table thead tr td th {
 }
 .card-body {
   color: rgb(100, 88, 152);
-  border-radius: 10px;
+  border-radius: 5px;
+  margin: 15px;
+}
+.card-body-portfolio {
+  color: rgb(100, 88, 152);
+  border-radius: 5px;
 }
 .card-services {
   background-color: rgb(104,139,56);
   border-radius: 10px;
 }
+
 .card-body-services {
   color: rgb(100, 88, 152);
   margin: 15px;
@@ -191,7 +200,8 @@ table thead tr td th {
 .card-text {
   padding-bottom: 10px;
   font-size: 16px;
-  color:rgb(39,79,114) ;
+  color:rgb(39,79,114);
+  height: 150px;
 }
 .card-text-services {
   padding-bottom: 10px;
@@ -245,9 +255,6 @@ table thead tr td th {
   color: rgb(39,79,114);
 border-width: thick;
 }
-.footer {
-  margin-top: 10px;
-}
 @media (max-width: 600px) {
   nav, footer, header body .container{
       width: 100%;
@@ -276,3 +283,7 @@ border-width: thick;
   nav, footer, header, body  .container {
       padding: 0px; 
  }}
+
+ .card-footer {
+   margin-bottom: 0;
+ }
