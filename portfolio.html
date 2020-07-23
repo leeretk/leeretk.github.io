@@ -13,6 +13,46 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 
     <title>PeakDS-Portfolio</title>
+    <style>
+        /* jquery-ui overrides */
+        #accordion .ui-widget-content a {
+            color: #A6093D;
+        }
+
+        #accordion .ui-accordion-header {
+            font-size: 1.3em;
+        }
+
+        #accordion .ui-accordion-header-icon {
+            margin-right: 5px;
+        }
+
+        #accordion .ui-state-default {
+            background-color: #BFD0D4;
+            color: #444444 !important;
+        }
+
+        #accordion .ui-state-hover {
+            background-color: #A4BCC2;
+            color: #444444 !important;
+        }
+
+        #accordion .ui-state-active {
+            background-color: #425563;
+            color: white !important;
+            border: 1px solid #768692;
+        }
+
+        #accordion .ui-accordion-content {
+            background-color: #eee;
+        }
+
+        #accordion .ui-accordion-content li {
+            margin-bottom: 5px;
+        }
+
+        /* end jquery-ui overrides */
+    </style>
 </head>
 <!-- class="container-fluid" -->
 
@@ -20,281 +60,407 @@
     <!--Header -->
     <header>
         <div>
-            <img class="img-header" src="./assets/images/ValleyOfTheSun.jpg" alt="ValleyOfTheSun">
+            <img src="https://img.icons8.com/windows/100/ffffff/earth-element.png" />
             <div>
-                <h1>Peak Design Strategies LLC</h1>
+                <h1>&nbsp;Peak Design Strategies</h1>
             </div>
-        </div>
-        <!--start navigation -->
-        <div>
-            <nav class="nav nav-pills flex-column flex-sm-row">
-                <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="index.html" role="tab"
-                    aria-controls="pills-aboutme">About Me
-                </a>
 
-                <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="services.html" role="tab"
-                    aria-controls="pills-aboutme">Products & Services
-                </a>
+            <!--start navigation -->
+            <div>
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="index.html" role="tab"
+                        aria-controls="pills-aboutme">About Me
+                    </a>
 
-                <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="portfolio.html" role="tab"
-                    aria-controls="pills-portfolio">Portfolio</a>
+                    <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="services.html" role="tab"
+                        aria-controls="pills-aboutme">Products & Services
+                    </a>
 
-                <a target="_blank" class="flex-sm-fill nav-tabs text-sm-center nav-link"
-                    href="https://www.linkedin.com/in/kamy-leeret-mspa-57161348/" role="tab"
-                    aria-controls="pills-linkedin">LinkedIn</a>
+                    <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="portfolio.html" role="tab"
+                        aria-controls="pills-portfolio">Portfolio</a>
 
-                <a target="_blank" class="flex-sm-fill nav-tabs text-sm-center nav-link"
-                    href="https://github.com/leeretk" role="tab" aria-controls="pills-github">GitHub</a>
+                    <a target="_blank" class="flex-sm-fill nav-tabs text-sm-center nav-link"
+                        href="https://www.linkedin.com/in/kamy-leeret-mspa-57161348/" role="tab"
+                        aria-controls="pills-linkedin">LinkedIn</a>
 
-                <a target="_blank" class="flex-sm-fill nav-tabs  text-sm-center nav-link"
-                    href="./assets/docs/Leeret Kamy Resume 20200328.pdf" role="tab"
-                    aria-controls="pills-resume">Resume</a>
+                    <a target="_blank" class="flex-sm-fill nav-tabs text-sm-center nav-link"
+                        href="https://github.com/leeretk" role="tab" aria-controls="pills-github">GitHub</a>
 
-                <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="msgboard.html" role="tab"
-                    aria-controls="pills-messageboard">Message Board</a>
-            </nav>
-        </div>
-        <!--end navigation -->
+                    <a target="_blank" class="flex-sm-fill nav-tabs  text-sm-center nav-link"
+                        href="./assets/docs/Leeret Kamy Resume 20200328.pdf" role="tab"
+                        aria-controls="pills-resume">Resume</a>
+
+                    <a class="flex-sm-fill nav-tabs text-sm-center nav-link" href="msgboard.html" role="tab"
+                        aria-controls="pills-messageboard">Message Board</a>
+                </nav>
+            </div>
+            <!--end navigation -->
     </header>
     <!--end header -->
 
-        <!--start about me -->
-        <br>
-        <div class="container-fluid h-100">
-            <p class="p-aboutMeblurb">PORTFOLIO
-            </p>
+    <!--start about me -->
+    <br>
+    <div class="container-fluid h-100">
+        <p class="p-aboutMeblurb">PORTFOLIO
+        </p>
 
-    <!--start Portfolio -->
-    <div>
-        <br>
-    </div>
-    <div class="row row-cols-2 row-cols-md-4">
-    
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://skip1113.github.io/class-pro-1/" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/trails_on_tap_img.jpg" alt="trails on Tap"></a>
-            
-                <div class="card-body-portfolio">
-                        <h5 class="card-title">Trails on Tap </h5>
-                    <p class="card-text">Search for Hiking Trails and Breweries within close proxity.</p>
-                </div>
-            
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://skip1113.github.io/class-pro-1/">App</a>
-                    </small> <strong style="color: rgb(104,139,56);"> &#9830</strong>  
-                    <small class="text-muted"><a href="https://github.com/skip1113/class-pro-1">Repo</a></small>
-                </div>
-            </div>
-
-        </div>
-  
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://leeretk.github.io/GifTastic/" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/isnt_that_giftastic_img.jpg" alt="giftastic"></a>
-                    <div class="card-body-portfolio">
-                        
-                        <h5 class="card-title">Giftastic</h5>
-                    <p class="card-text"> Search for your favorite hockey-related Gifs or anything else you like.</p>
-                </div>
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://leeretk.github.io/GifTastic/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong>  
-                    <small class="text-muted"><a href="https://github.com/leeretk/GifTastic">Repo</a></small>
-                </div>
-            
-            </div>
-        </div>
-    
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://leeretk.github.io/train-schedule/" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/train_schedule_img.png" alt="train-schedule"></a>
-                
-                <div class="card-body-portfolio">
-                        <h5 class="card-title">Train Schedule</h5>
-                    <p class="card-text">Enter new trains and monitor a train schedule using firebase and node.</p>
-                </div>
-
-                <div class="card-footer text-center">
-                    <small class="text-muted"><a href="https://leeretk.github.io/train-schedule/">App</a></small> 
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/train-schedule">Repo</a></small>
-                </div>
-            </div>
+        <!--start Portfolio -->
+        <div>
+            <br>
         </div>
 
-         <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://github.com/leeretk/bamazon" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/bamazon.JPG"
-                        alt="train-schedule"></a>
+        <div class="row row-cols-2 row-cols-md-2">
+            <div class="col-4">
+            </div>
+
+            <div class="col-8">
+                <div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+
+
+                    <h3 class="ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-accordion-icons"
+                    role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="false" aria-expanded="false" tabindex="0"><span
+                        class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-s"></span>React</h3>
+                <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content ui-accordion-content-active"
+                    id="ui-id-2" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false" style="display: block;">
+                        <div class="row">
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <a target="_blank" href="https://damp-depths-81632.herokuapp.com/" role="button">
+                                        <img class="card-img-top d-block w-100" src="./assets/images/clickeygame.PNG"
+                                            alt="clickygame"></a>
+                                    <div class="card-body-portfolio">
+                                        <h5 class="card-title">Clicky Game</h5>
+                                        <p class="card-text">The Princess Bridge themed Memory Game.</p>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small class="text-muted"> <a
+                                                href="https://damp-depths-81632.herokuapp.com/">App</a></small>
+                                        <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                                        <small class="text-muted"><a
+                                                href="https://github.com/leeretk/clickygame">Repo</a></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card h-100">
+                                    <a target="_blank" href="https://final-project-du.herokuapp.com/" role="button">
+                                        <img class="card-img-top d-block w-100" src="./assets//images/FitnessApp.PNG"
+                                            alt="newsworthy"></a>
+                                    <div class="card-body-portfolio">
+                                        <h5 class="card-title">Fitness App</h5>
+                                        <p class="card-text">Track fitness and share results with team members.</p>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <small class="text-muted"> <a
+                                                href="https://final-project-du.herokuapp.com/">App</a></small>
+                                        <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                                        <small class="text-muted"><a
+                                                href="https://github.com/leeretk/Final-Project">Repo</a></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+                    role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1">
+                    <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>Firebase
+                </h3>
+                <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-4"
+                    aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://leeretk.github.io/train-schedule/" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/train_schedule_img.png"
+                                alt="train-schedule"></a>
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Train Schedule</h5>
+                            <p class="card-text">Enter new trains and monitor a train schedule using
+                                firebase and node.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"><a
+                                    href="https://leeretk.github.io/train-schedule/">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a
+                                    href="https://github.com/leeretk/train-schedule">Repo</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                </div>
+                <div class="col mb-4">
+                </div>
+            </div>
+        </div>
+
+        <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+            role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1">
+            <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>Node
+        </h3>
+        <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-4"
+            aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://github.com/leeretk/bamazon" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/bamazon.JPG"
+                                alt="train-schedule"></a>
                         <div class="card-body-portfolio">
                             <h5 class="card-title">Bamazon</h5>
-                    <p class="card-text">Customer, Mananager & Supervisor portals in Node for Supply Management. </p>
+                            <p class="card-text">Customer, Mananager & Supervisor portals in Node for Supply
+                                Management. </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a href="https://github.com/leeretk/bamazon">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/leeretk/bamazon">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://github.com/leeretk/bamazon">App</a></small> 
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/bamazon">Repo</a></small>
-                  </div>
-            </div>
-        </div>
-    
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://github.com/leeretk/liri-node-app" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/node liri js.JPG"
-                        alt="train-schedule"></a>                
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://github.com/leeretk/liri-node-app" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/node liri js.JPG"
+                                alt="train-schedule"></a>
                         <div class="card-body-portfolio">
                             <h5 class="card-title">Liri</h5>
-                    <p class="card-text">Language recognition interface to search movies, songs, or concert information.</p>
+                            <p class="card-text">Language recognition interface to search movies, songs, or
+                                concert information.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a
+                                    href="https://github.com/leeretk/liri-node-app">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a
+                                    href="https://github.com/leeretk/liri-node-app">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://github.com/leeretk/liri-node-app">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/liri-node-app">Repo</a></small>
-                  </div>
-            </div>
-        </div>
-    
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://agile-coast-95462.herokuapp.com/" role="button">
-                    <img class="card-img-top d-block w-100" src="./assets/images/burgers.JPG" alt="train-schedule"></a>  
-                
-                    <div class="card-body-portfolio">
-                        <h5 class="card-title">Burgers</h5>
-                    <p class="card-text">Build a Burger.  Make the Burger. Eat the Burger. Delete the Burger.</p>
-                </div>
-
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://agile-coast-95462.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong>  
-                    <small class="text-muted"><a href="https://github.com/leeretk/burger">Repo</a></small>
+                <div class="col mb-4">
                 </div>
             </div>
         </div>
 
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://friend-find-kamy.herokuapp.com" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets/images/FriendFinder.PNG" alt="FriendFinder"></a>              
-               
-                    <div class="card-body-portfolio">
-                        <h5 class="card-title">Friend Finder</h5>
-                    <p class="card-text">Answer questions to find your Dragon Match.</p>
+        <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+            role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1">
+            <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>APIs
+        </h3>
+        <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-6"
+            aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://skip1113.github.io/class-pro-1/" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/trails_on_tap_img.jpg"
+                                alt="trails on Tap"></a>
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Trails on Tap </h5>
+                            <p class="card-text">Search for Hiking Trails and Breweries within close
+                                proxity.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a href="https://skip1113.github.io/class-pro-1/">App</a>
+                            </small> <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/skip1113/class-pro-1">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="card-footer text-center">
-                    <small class="text-muted"><a href="https://friend-find-kamy.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/FriendFinder">Repo</a></small>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://leeretk.github.io/GifTastic/" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/isnt_that_giftastic_img.jpg"
+                                alt="giftastic"></a>
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Giftastic</h5>
+                            <p class="card-text"> Search for your favorite hockey-related Gifs or anything
+                                else
+                                you like.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a href="https://leeretk.github.io/GifTastic/">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/leeretk/GifTastic">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://main-project-2.herokuapp.com/" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets/images/BucketList.JPG" alt="bucketlist"></a>              
-                
-                    <div class="card-body-portfolio">
-                        <h5 class="card-title">Bucket List</h5>
-                    <p class="card-text">Track your bucket list items and research travel ideas.</p>
-                </div>
-               
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://main-project-2.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/claywhill/project-2">Repo</a></small>
-                </div>
-            </div>
-        </div>
-
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://damp-depths-81632.herokuapp.com/" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets/images/clickeygame.PNG" alt="clickygame"></a>              
-                
-                    <div class="card-body-portfolio">
-                        <h5 class="card-title">Clicky Game</h5>
-                    <p class="card-text">The Princess Bridge themed Memory Game.</p>
-                </div>
-               
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://damp-depths-81632.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/clickygame">Repo</a></small>
+                <div class="col mb-4">
                 </div>
             </div>
         </div>
 
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://newsworthy.herokuapp.com/" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets/images/scraperImage.PNG" alt="newsworthy"></a>              
-                
-                    <div class="card-body-portfolio">
-                        <h5 class="card-title">News Worthy</h5>
-                    <p class="card-text">Scrape News, add and edit notes saved in a mongo database.</p>
+        <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+            role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1">
+            <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>Scraping</h3>
+        <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-6"
+            aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <a target="_blank" href="https://newsworthy.herokuapp.com/" role="button">
+                                <img class="card-img-top d-block w-100" src="./assets/images/scraperImage.PNG"
+                                    alt="newsworthy"></a>
+                            <div class="card-body-portfolio">
+                                <h5 class="card-title">News Worthy</h5>
+                                <p class="card-text">Scrape News, add and edit notes saved in a mongo
+                                    database.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <small class="text-muted"> <a href="https://newsworthy.herokuapp.com/">App</a></small>
+                                <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                                <small class="text-muted"><a
+                                        href="https://github.com/leeretk/newsworthy">Repo</a></small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-               
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://newsworthy.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/newsworthy">Repo</a></small>
+                <div class="col mb-4">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <a target="_blank" href="https://whispering-hollows-74592.herokuapp.com/" role="button">
+                                <img class="card-img-top d-block w-100" src="./assets/images/BookSearchPage.PNG"
+                                    alt="newsworthy"></a>
+                            <div class="card-body-portfolio">
+                                <h5 class="card-title">Book Search</h5>
+                                <p class="card-text">Search Google Books API for favorites and add comments.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <small class="text-muted"> <a
+                                        href="https://whispering-hollows-74592.herokuapp.com/">App</a></small>
+                                <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                                <small class="text-muted"><a
+                                        href="https://github.com/leeretk/google-books">Repo</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
                 </div>
             </div>
         </div>
 
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://whispering-hollows-74592.herokuapp.com/" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets/images/BookSearchPage.PNG" alt="newsworthy"></a>              
-                
-                <div class="card-body-portfolio">
-                    <h5 class="card-title">Book Search</h5>
-                    <p class="card-text">Search Google Books API for favorites and add comments. </p>
+        <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+            role="tab" id="ui-id-7" aria-controls="ui-id-8" aria-selected="false" aria-expanded="false" tabindex="-1">
+            <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>SQL
+        </h3>
+        <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-8"
+            aria-labelledby="ui-id-7" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://agile-coast-95462.herokuapp.com/" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/burgers.JPG"
+                                alt="train-schedule"></a>
+
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Burgers</h5>
+                            <p class="card-text">Build a Burger. Make the Burger. Eat the Burger. Delete the
+                                Burger.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a
+                                    href="https://agile-coast-95462.herokuapp.com/">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/leeretk/burger">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-               
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://whispering-hollows-74592.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/google-books">Repo</a></small>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://main-project-2.herokuapp.com/" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/BucketList.JPG"
+                                alt="bucketlist"></a>
+
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Bucket List</h5>
+                            <p class="card-text">Track your bucket list items and research travel ideas.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="text-muted"> <a href="https://main-project-2.herokuapp.com/">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/claywhill/project-2">Repo</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
                 </div>
             </div>
         </div>
 
-        <div class="col mb-4">
-            <div class="card h-100">
-                <a target="_blank" href="https://final-project-du.herokuapp.com/" role="button"> 
-                    <img class="card-img-top d-block w-100" src="./assets//images/FitnessApp.PNG" alt="newsworthy"></a>              
-                
-                <div class="card-body-portfolio">
-                    <h5 class="card-title">Fitness App</h5>
-                    <p class="card-text">Track fitness and share results with team members.</p>
+        <h3 class="ui-accordion-header ui-corner-top ui-accordion-header-collapsed ui-corner-all ui-state-default ui-accordion-icons"
+            role="tab" id="ui-id-7" aria-controls="ui-id-8" aria-selected="false" aria-expanded="false" tabindex="-1">
+            <span class="ui-accordion-header-icon ui-icon ui-icon-circle-arrow-e"></span>Express</h3>
+        <div class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content" id="ui-id-8"
+            aria-labelledby="ui-id-7" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <a target="_blank" href="https://friend-find-kamy.herokuapp.com" role="button">
+                            <img class="card-img-top d-block w-100" src="./assets/images/FriendFinder.PNG"
+                                alt="FriendFinder"></a>
+
+                        <div class="card-body-portfolio">
+                            <h5 class="card-title">Friend Finder</h5>
+                            <p class="card-text">Answer questions to find your Dragon Match.</p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <small class="text-muted"><a href="https://friend-find-kamy.herokuapp.com/">App</a></small>
+                            <strong style="color: rgb(104,139,56);"> &#9830</strong>
+                            <small class="text-muted"><a href="https://github.com/leeretk/FriendFinder">Repo</a></small>
+                        </div>
+                    </div>
                 </div>
-               
-                <div class="card-footer text-center">
-                    <small class="text-muted"> <a href="https://final-project-du.herokuapp.com/">App</a></small>
-                    <strong style="color: rgb(104,139,56);"> &#9830</strong> 
-                    <small class="text-muted"><a href="https://github.com/leeretk/Final-Project">Repo</a></small>
+                <div class="col mb-4">
+                </div>
+                <div class="col mb-4">
                 </div>
             </div>
         </div>
-
     </div>
+</div>
 
-    <footer class="fixed-bottom"> Peak Design Strategies LLC Copyright &copy; </footer>
+        <div>
+            <footer class="fixed-bottom"> Peak Design Strategies, LLC &nbsp;&nbsp;&nbsp;Copyright &copy;</footer>
+        </div>
 
         <!--scripts  floating-box -->
         <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                var icons = {
+                    header: "ui-icon-circle-arrow-e",
+                    activeHeader: "ui-icon-circle-arrow-s"
+                };
 
+                $("#accordion").accordion({
+                    icons: icons,
+                    collapsible: true,
+                    heightStyle: "content"
+                });
+
+                $("#toggle").button().on("click", function () {
+                    if ($("#accordion").accordion("option", "icons")) {
+                        $("#accordion").accordion("option", "icons", null);
+                    } else {
+                        $("#accordion").accordion("option", "icons", icons);
+                    }
+                });
+            });
+        </script>
 </body>
 
 </html>

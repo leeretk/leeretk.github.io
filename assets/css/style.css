@@ -5,6 +5,9 @@ html{
   font: 18px/1.4 system-ui;
   position: center;
 }
+img {
+  float: left;
+}
 body{
   background-color: rgb(104,139,56);
   position: center;
@@ -201,7 +204,7 @@ table thead tr td th {
   padding-bottom: 10px;
   font-size: 16px;
   color:rgb(39,79,114);
-  height: 150px;
+  height: 50px;
 }
 .card-text-services {
   padding-bottom: 10px;
